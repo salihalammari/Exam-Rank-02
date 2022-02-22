@@ -21,8 +21,8 @@ void    ft_putstr(char *str, int *len)
 {
     int i = 0;
 
-    if (!s)
-        s = 'null';
+    if (!str)
+        str = 'null';
     while (s[i])
     {
         ft_putchar(s[i], len);
