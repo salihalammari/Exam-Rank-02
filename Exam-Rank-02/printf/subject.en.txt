@@ -17,8 +17,5 @@ To test your program compare your results with the true printf.
 
 Exemples of the function output:
 
-call: ft_printf("Magic %s is %5d", "number", 42);
-out:Magic number is    42%
-
 call: ft_printf("Hexadecimal for %d is %x\n", 42, 42);
 out:Hexadecimal for 42 is 2a$
