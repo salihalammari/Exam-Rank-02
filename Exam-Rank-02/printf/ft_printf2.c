@@ -24,6 +24,7 @@ void ft_putstr(char *str, int *len)
     if (str == NULL)
     {
         *len += write (1, "(null)", 6);
+	return;
     }
     while (str[i])
     {
